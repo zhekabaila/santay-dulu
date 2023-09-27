@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Cari tempat wisatamu sekarang juga di SantayDulu"
+    />
+    <title>SantayDulu - Cari tempat wisatamu sekarang juga!</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar_container">
+        <div
+          class="container"
+          style="display: flex; justify-content: space-between; width: 100%"
+        >
+          <h1>
+            <a href="" class="navbar_logo">SantayDulu</a>
+          </h1>
+          <button type="button" id="burger-menu">
+            <img
+              src="./assets/icons/menu.png"
+              width="24"
+              height="24"
+              alt="burger menu icon"
+            />
+          </button>
+          <ul class="navbar_list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#locations">Locations</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="mobile_navbar">
+      <div
+        class="container"
+        style="display: flex; justify-content: space-between; width: 100%"
+      >
+        <h1>
+          <a href="" class="navbar_logo">SantayDulu</a>
+        </h1>
+        <button type="button" id="close-menu">
+          <img
+            src="./assets/icons/close.png"
+            width="24"
+            height="24"
+            alt="burger menu icon"
+          />
+        </button>
+      </div>
+      <ul>
+        <li><a href="#about" id="mobile_navbar_menu">About</a></li>
+        <li><a href="#locations" id="mobile_navbar_menu">Locations</a></li>
+        <li><a href="#contact" id="mobile_navbar_menu">Contact</a></li>
+      </ul>
+    </div>
+    <main>
+      <section id="about" class="hero_container">
+        <div class="hero_wrapper container">
+          <div>
+            <h2 class="hero_title">Segera Jelajahi Semua Tempat Wisata!</h2>
+            <p class="hero_description">
+              Disini kami menyediakan daftar tempat liburan yang indah dan
+              terjangkau
+            </p>
+            <div class="hero_button_wrapper">
+              <button
+                type="button"
+                style="
+                  background-color: #ff8e3c;
+                  padding: 8px 32px;
+                  color: #fffffe;
+                  border: none;
+                  font-size: 18px;
+                  font-weight: 600;
+                "
+              >
+                Lihat lokasi
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="locations" style="padding: 60px 0">
+        <div class="list_container container"></div>
+      </section>
+      <section id="contact">
+        <div class="contact_container">
+          <form action="" method="">
+            <div class="email_input_wrapper">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="john@example.com" />
+            </div>
+            <div class="subject_input_wrapper">
+              <label for="password">Subject</label>
+              <input type="email" id="password" placeholder="your subject" />
+            </div>
+            <div>
+              <div class="message_input_wrapper">
+                <label for="message">Message</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  rows="10"
+                  placeholder="your message"
+                ></textarea>
+              </div>
+            </div>
+          </form>
+          <aside>
+            <h2>Contact</h2>
+          </aside>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div style="flex-basis: 25%">
+        <h2>SantayDulu</h2>
+        <p>
+          di website ini kami memiliki daftar tempat wisata yang anda inginkan,
+          segera jelajahi sekarang!
+        </p>
+      </div>
+      <div class="section_menu">
+        <h2>Sections</h2>
+        <ul>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#locations">Locations</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer_findme">
+        <h2>Find me</h2>
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/zhekabailaa/" target="_blank">
+              <img
+                src="./assets/icons/instagram.png"
+                width="18"
+                height="18"
+                alt="instagram icon"
+              />
+              <span>Instagram</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/zheka-baila-arkan-624517267/"
+              target="_blank"
+            >
+              <img
+                src="./assets/icons/linkedin.png"
+                width="18"
+                height="18"
+                alt="linkedin icon"
+              />
+              <span>Linkedin</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
